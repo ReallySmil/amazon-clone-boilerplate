@@ -1,8 +1,10 @@
 body{
     margin:0;
     padding: 0;
-    background-color: #355967;
-    background-image: url("./assets/background\ picture.png");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 .top-bar{
     display: flex;
@@ -42,6 +44,15 @@ body{
 }
 .imgg{
     height: 40px;
+}
+.content{
+    background-image: url(./assets/background\ picture.png);
+    display: flex;
+    font-size: xx-large;
+    color: white;
+}
+.appl{
+
 }
 
 
