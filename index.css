@@ -1,6 +1,8 @@
 body{
     margin:0;
     padding: 0;
+    background-color: #355967;
+    background-image: url("./assets/background\ picture.png");
 }
 .top-bar{
     display: flex;
@@ -17,13 +19,30 @@ body{
     gap: 0;
 }
 .second-bar{
-    background-color: #7c8480;
+    background-color: #243040;
     color: #fff;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: left;
     padding: 0;
+    gap:10px;
 }
-.second-bar li{
+
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 1px;
+    gap: 20px;
+    display: flex;
+}
+
+.menu li {
     display: inline;
 }
+.imgg{
+    height: 40px;
+}
+
+
+
